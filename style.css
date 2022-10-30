@@ -272,6 +272,7 @@ body{
     }
     .button-two {
         width: 31%;
+        max-width: 170px;
     }
 
     .bottom-nav {
@@ -281,14 +282,14 @@ body{
  
     
     .year{
-        margin: 4vh 15% 0 12%;
+        margin: 4vh 5% 0 12%;
         width: 140px;
         font-size: 70%;
         text-align: left;
     }
     
     .location{
-        margin: 4vh 0 0 18%;
+        margin: 4vh 0 0 10%;
         width: 260px;
         font-size: 70%;
         text-align: left;
@@ -326,14 +327,14 @@ body{
         margin-top: 16vh;
     }
     .year{
-        margin: 4vh 8% 0 10%;
+        margin: 4vh 8% 0 14%;
         width: 140px;
         font-size: 70%;
         text-align: left;
     }
     
     .location{
-        margin: 4vh 0 0 12%;
+        margin: 4vh 0 0 1%;
         width: 300px;
         font-size: 70%;
         text-align: left;
