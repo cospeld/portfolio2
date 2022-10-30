@@ -310,10 +310,10 @@ body{
 
 @media only screen and (max-width: 600px) {
     .vishwash{
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .top-nav-block{
-        margin-left: 44%;
+        margin-left: 50%;
     }
     .Product-Designer {
         font-size: 110%;
@@ -337,6 +337,12 @@ body{
         width: 300px;
         font-size: 70%;
         text-align: left;
+    }
+    .img{
+        width: 100%;
+    }
+    .img-set-one{
+        display: block;
     }
     
 }
