@@ -449,4 +449,13 @@ body{
     }
 }
 
+@media only screen and (min-width: 1090px) {
+    .Product-Designer {
+        margin-top: 26vh;
+    }
+    .bottom-nav{
+        margin-top: 24vh;
+    }
+}
+
 
