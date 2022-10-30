@@ -408,7 +408,7 @@ body{
     }
     .top-nav-block {
         display: block;
-        margin: 0 0% 0 50%;
+        margin: 0 0% 0 40%;
     }
     .img{
         max-width: 100%;
@@ -419,7 +419,7 @@ body{
 
 @media only screen and (max-width: 600px) {
     .vishwash{
-        padding-left: 40px;
+        padding-left: 20px;
     }
     .top-nav-block{
         margin-left: 34%;
@@ -458,4 +458,10 @@ body{
     }
 }
 
+
+@media only screen and (max-width: 400px){
+    .top-nav-block {
+        margin-left: 20%;
+    }
+}
 
