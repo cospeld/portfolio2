@@ -400,11 +400,11 @@ body{
     }
     
     .location{
-        margin: 4vh 0 0 22%;
-        width: 300px;
+        margin: 4vh 0 0 18%;
+        width: 260px;
         font-size: 70%;
         text-align: left;
-        padding-left: 12%;
+        padding-left: 7%;
     }
     .top-nav-block {
         display: block;
@@ -421,15 +421,18 @@ body{
     .vishwash{
         padding-left: 4%;
     }
+    .top-nav-block{
+        margin-left: 7rem;
+    }
     .Product-Designer {
         font-size: 110%;
         width: 230px;
         text-align: center;
-        margin-top: 24vh;   
+        margin-top: 18vh;   
         
     }
     .bottom-nav {
-        margin-top: 15vh;
+        margin-top: 16vh;
     }
     .year{
         margin: 4vh 8% 0 10%;
