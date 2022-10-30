@@ -3,6 +3,9 @@
     box-sizing: border-box;
     
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #222222;
     font-family: 'Poppins', sans-serif;
@@ -390,10 +393,10 @@ pre{
 
 @media only screen and (min-width: 1090px) {
     .Product-Designer {
-        margin-top: 26vh;
+        margin-top: 16vh;
     }
     .bottom-nav{
-        margin-top: 24vh;
+        margin-top: 20vh;
     }
 }
 
