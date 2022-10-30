@@ -418,6 +418,9 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+    .vishwash{
+        padding-left: 4%;
+    }
     .Product-Designer {
         font-size: 110%;
         width: 230px;
