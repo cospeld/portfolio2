@@ -49,7 +49,15 @@ body{
 
 .lets-talk-button {
     margin: 4vh 0 0 8%;
-    
+    font-size: 70%;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 200px;
+    height: 26px;
+    padding: 0.8% 5%;
+}
+pre{
+    font-family: 'Poppins', sans-serif;
 }
 
 .Product-Designer {
@@ -69,6 +77,12 @@ body{
 
 .scroll-button {
     margin-top: 3.5vh;
+    font-size: 70%;
+    width: 200px;
+    padding:0.4%;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 0.6%;
 }
 
 .bottom-nav {
@@ -140,9 +154,12 @@ body{
     }
     
     .lets-talk-button {
-        width: 135px;
-        margin: 4vh 0 0 4%;
-        
+        margin: 4vh 0 0 8%;
+        font-size: 60%;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 90px;
+        padding: 2% 0;
     }
     
     .Product-Designer {
@@ -191,6 +208,24 @@ body{
         width: 240px;
         font-size: 80%;
         text-align: left;
+    }
+    .scroll-button {
+        margin-top: 3.5vh;
+        font-size: 50%;
+        width: 120px;
+        padding:0.4%;
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 0.9% 0;
+    }
+    .lets-talk-button {
+        margin: 4vh 0 0 8%;
+        font-size: 70%;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 200px;
+        height: 26px;
+        padding: 0.8% 5%;
     }
 }
 
@@ -244,8 +279,13 @@ body{
     }
     
     .lets-talk-button {
-        margin: 4vh 0% 0 0%;
-        
+        margin: 4vh 0 0 8%;
+        font-size: 50%;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 80px;
+        height: 20px;
+        padding: 2% 5%;
     }
     
     .Product-Designer {
@@ -362,5 +402,15 @@ body{
     .top-nav-block {
         margin-left: 20%;
     }
+    .lets-talk-button {
+        margin: 4vh 0 0 8%;
+        font-size: 50%;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 70px;
+        height: 18px;
+        padding: 2% 2%;
+    }
+    
 }
 
