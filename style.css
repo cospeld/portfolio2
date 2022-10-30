@@ -87,7 +87,7 @@ body{
 }
 
 .year{
-    margin: 4vh 8% 0 0%;
+    margin: 4vh 4% 0 8%;
     width: 140px;
     font-size: 80%;
     text-align: left;
@@ -279,7 +279,7 @@ body{
     }
 
     .bottom-nav {
-        margin-top: 17vh;
+        margin-top: 14vh;
     }
     .social {
         margin: 4vh 24%;
@@ -415,7 +415,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .Product-Designer {
         font-size: 110%;
         width: 230px;
@@ -451,6 +451,32 @@ body{
     }
     .bottom-nav {
         margin-top: 26vh;
+    }
+    .year{
+        margin: 4vh 8% 0 10%;
+        width: 140px;
+        font-size: 70%;
+        text-align: left;
+    }
+    
+    .location{
+        margin: 4vh 0 0 12%;
+        width: 300px;
+        font-size: 70%;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Product-Designer {
+        font-size: 110%;
+        width: 230px;
+        text-align: center;
+        margin-top: 26vh;   
+        
+    }
+    .bottom-nav {
+        margin-top: 24vh;
     }
     .year{
         margin: 4vh 8% 0 10%;
