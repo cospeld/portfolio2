@@ -180,14 +180,14 @@ body{
     }
     
     .year{
-        margin: 4vh 2% 0 1%;
+        margin: 4vh 8% 0 0%;
         width: 30px;
         font-size: 80%;
         text-align: left;
     }
     
     .location{
-        margin: 4vh 0 0 2%;
+        margin: 4vh 4% 0 4%;
         width: 240px;
         font-size: 80%;
         text-align: left;
@@ -279,7 +279,7 @@ body{
     }
 
     .bottom-nav {
-        margin-top: 14vh;
+        margin-top: 12vh;
     }
     .social {
         margin: 4vh 24%;
@@ -364,7 +364,7 @@ body{
         font-size: 110%;
         width: 230px;
         text-align: center;
-        margin-top: 26vh;   
+        margin-top: 22vh;   
         
     }
     .Hello {
@@ -387,7 +387,7 @@ body{
     }
 
     .bottom-nav {
-        margin-top: 22vh;
+        margin-top: 16vh;
         padding-top: 2vh;
     }
  
@@ -415,64 +415,14 @@ body{
     }
 }
 
-@media only screen and (max-width: 450px) {
-    .Product-Designer {
-        font-size: 110%;
-        width: 230px;
-        text-align: center;
-        margin-top: 18vh;   
-        
-    }
-    .bottom-nav {
-        margin-top: 14vh;
-    }
-    .year{
-        margin: 4vh 8% 0 5%;
-        width: 140px;
-        font-size: 70%;
-        text-align: left;
-    }
-    
-    .location{
-        margin: 4vh 0 0 12%;
-        width: 300px;
-        font-size: 70%;
-        text-align: left;
-    }
-}
+
 
 @media only screen and (max-width: 600px) {
     .Product-Designer {
         font-size: 110%;
         width: 230px;
         text-align: center;
-        margin-top: 26  vh;   
-        
-    }
-    .bottom-nav {
-        margin-top: 26vh;
-    }
-    .year{
-        margin: 4vh 8% 0 10%;
-        width: 140px;
-        font-size: 70%;
-        text-align: left;
-    }
-    
-    .location{
-        margin: 4vh 0 0 12%;
-        width: 300px;
-        font-size: 70%;
-        text-align: left;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .Product-Designer {
-        font-size: 110%;
-        width: 230px;
-        text-align: center;
-        margin-top: 22vh;   
+        margin-top: 24vh;   
         
     }
     .bottom-nav {
@@ -492,4 +442,5 @@ body{
         text-align: left;
     }
 }
+
 
