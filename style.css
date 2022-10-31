@@ -40,6 +40,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #222222;
+    animation: fadeIn 2.5s;
 }
 .vishwash{
     margin: 4vh 10% 0 0%;

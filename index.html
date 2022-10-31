@@ -114,19 +114,6 @@
 
 
     
-document.onreadystatechange = function() {
-    if (document.readyState !== "complete") {
-        document.querySelector("body").style.visibility = "hidden";
-        document.querySelector(".loader-wrapper").style.visibility = "visible";
-    } else {
-      setTimeout(function(){
-        document.querySelector(".loader-wrapper").style.display = "none";
-        document.querySelector("body").style.visibility = "visible";
-        document.querySelector(".first-screen").style.animation = "fadeIn 1.5s";
-      }, 3000);
-      }
 
-    
-};
 </script>
 </html>
