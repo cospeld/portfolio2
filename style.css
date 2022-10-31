@@ -38,6 +38,9 @@ body{
     animation: fadeIn 2s;
     transition-timing-function: linear;
     font-size: 130%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
 
   @keyframes fadeOut {
