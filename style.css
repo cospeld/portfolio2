@@ -79,7 +79,6 @@ body{
     height: 26px;
     padding: 0.8% 5%;
     cursor: pointer;
-    transition: all .6s ease-in-out;
 }
 
 .lets-talk-button:hover {
@@ -118,7 +117,6 @@ a{
     border-radius: 50px;
     padding: 0.6%;
     cursor: pointer;
-    transition:  all .6s ease-in-out;
 }
 
 .scroll-button:hover {
