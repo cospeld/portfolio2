@@ -18,8 +18,17 @@ body{
 
 
 
+.profile{
+    height: 100%;
+    width: 100%;
+    padding: 5% 10%;
+    background-color: #F9F9F9;
+}
 
-
+.profile-mobile {
+    width: 100%;
+    display: none;
+}
 
 
 
@@ -387,6 +396,7 @@ a{
     .social{
         display: none;
     }
+    
 }
 
 
@@ -427,6 +437,14 @@ a{
     .img-set-one{
         display: block;
     }
+    .profile {
+        display: none;
+    }
+    .profile-mobile {
+        width: 100%;
+        display: block;
+    }
+   
     
 }
 
