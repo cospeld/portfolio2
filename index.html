@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Document</title>
+    <title>Vishwash</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
+
+    <div id="target" class="loader-wrapper">
+      <div class="loader"><div class="loader-inner">Vishwash</div></div>
+      </div>
+
+
+
     <div class="first-screen">
       <center>
         <div class="top-nav">
@@ -34,7 +42,7 @@
           Product Designer.
         </div>
         
-        <div class="scroll-button">SCROLL TO DISCOVER &nbsp;&#8595;</div>
+        <div onclick="scrolldiv()" class="scroll-button">SCROLL TO DISCOVER &nbsp;&#8595;</div>
       
       <div class="bottom-nav">
       <div class="year">2022</div>
@@ -53,25 +61,79 @@
     </center>
     </div>
     </div>
-    <div class="img-set-one">
-      <img class="img" src="1.png" />
-      <img class="img" src="2.png" />
+    <div id="ele" class="img-set-one">
+     <img id="myButton-one" class="img" src="1.png" />
+      <img id="myButton-two" class="img" src="2.png" />
     </div>
     <div class="img-set-one">
-      <img class="img" src="3.png" />
-      <img class="img" src="4.png" />
+      <img id="myButton-three" class="img" src="3.png" />
+      <img id="myButton-four" class="img" src="4.png" />
     </div>
     <div class="img-set-one">
-      <img class="img" src="5.png" />
-      <img class="img" src="7.png" />
+      <img id="myButton-five" class="img" src="5.png" />
+      <img id="myButton-six" class="img" src="7.png" />
     </div>
     <div class="img-set-one">
-      <img class="img" src="8.png" />
-      <img class="img" src="9.png" />
+      <img id="myButton-seven" class="img" src="8.png" />
+      <img id="myButton-eight" class="img" src="9.png" />
     </div>
     <div class="img-set-one">
-      <img class="img" src="10.png" />
-      <img class="img" src="11.png" />
+      <img id="myButton-nine" class="img" src="10.png" />
+      <img id="myButton-ten" class="img" src="11.png" />
     </div>
+
   </body>
+  <script>
+    function scrolldiv() {
+        var elem = document.getElementById("ele");
+        elem.scrollIntoView();
+    };
+    document.getElementById("myButton-one").onclick = function () {
+        location.href = "one.html";
+    };
+    document.getElementById("myButton-two").onclick = function () {
+        location.href = "two.html";
+    };
+    document.getElementById("myButton-three").onclick = function () {
+        location.href = "three.html";
+    };
+    document.getElementById("myButton-four").onclick = function () {
+        location.href = "four.html";
+    };
+    document.getElementById("myButton-five").onclick = function () {
+        location.href = "five.html";
+    };
+    document.getElementById("myButton-six").onclick = function () {
+        location.href = "six.html";
+    };
+    document.getElementById("myButton-seven").onclick = function () {
+        location.href = "seven.html";
+    };
+    document.getElementById("myButton-eight").onclick = function () {
+        location.href = "eight.html";
+    };
+    document.getElementById("myButton-nine").onclick = function () {
+        location.href = "nine.html";
+    };
+    document.getElementById("myButton-ten").onclick = function () {
+        location.href = "ten.html";
+    };
+
+
+    
+document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector(".loader-wrapper").style.visibility = "visible";
+    } else {
+      setTimeout(function(){
+        document.querySelector(".loader-wrapper").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+        document.querySelector(".first-screen").style.animation = "fadeIn 1.5s";
+      }, 3000);
+      }
+
+    
+};
+</script>
 </html>
