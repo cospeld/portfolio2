@@ -162,10 +162,13 @@ a{
 }
 .img{
     width: 50%;
+    transition: 0.3s;
 }
 
 .img:hover{
-    border: 1px solid white;
+    border: 1px solid rgb(71, 71, 71);
+    filter: brightness(120%);
+    scale: 0.98;
 }
 
 
