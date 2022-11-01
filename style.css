@@ -126,12 +126,15 @@ a{
 
 .bottom-nav {
     margin-top: 18vh;
+   
 }
 .social {
-    margin: 4vh 10%;
+    margin: 4vh 10% 0 10%;
     width: 140px;
     font-size: 80%;
     text-align: left;
+     position: relative;
+    bottom: 0;
 }
 
 .social-total {
@@ -147,7 +150,7 @@ a{
 }
 
 .location{
-    margin: 4vh 8%;
+    margin: 4vh 8% 0 8%;
     width: 300px;
     font-size: 80%;
     text-align: left;
@@ -155,11 +158,51 @@ a{
 
 .img-set-one {
     display: flex;
-    cursor: pointer;
+    
 }
 .img{
     width: 50%;
 }
+
+.img:hover{
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+    border-radius: 10px;
+    opacity: 0.2;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #222222; 
+    border-radius: 10px;
+    border: 2px solid #6d6d6d;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6d6d6d; 
+  }
+
+
+
+
+
 
 @media only screen and (max-width: 1280px) {
     .top-nav, .bottom-nav{
@@ -206,7 +249,7 @@ a{
         font-size: 200%;
         width: 420px;
         text-align: center;
-        margin-top: 20vh;
+        margin-top: 28vh;
         
     }
     .Hello {
