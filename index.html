@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -20,11 +22,11 @@
         <div class="top-nav">
           <div class="vishwash">Vishwash</div>
           <div class="top-nav-block"> 
-          <div class="Product-Designer-2022">Product Designer 2022</div>
+          <div class="Product-Designer-2022">UI | UX Designer<br/> 2022</div>
           <div class="Avaliable-for-Freelance-Projects">
             Avaliable for Freelance Projects
           </div>
-          <div class="lets-talk-button"><pre>LET'S TALK</pre></div>
+          <div id="mail" class="lets-talk-button"><pre>LET'S TALK</pre></div>
         </div>
         </div>
         <div class="Product-Designer">
@@ -112,7 +114,9 @@
     document.getElementById("myButton-ten").onclick = function () {
         location.href = "ten.html";
     };
-
+    document.getElementById("mail").onclick = function () {
+        location.href = "mailto: vishwashclever@gmail.com";
+    };  
 
     
 
