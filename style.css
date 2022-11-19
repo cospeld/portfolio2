@@ -201,7 +201,15 @@ a{
     background: #6d6d6d; 
   }
 
-  
+  @media screen and (max-width: 1920px)  {
+        .Product-Designer {
+            margin-top: 24vh !important;
+        }
+        .bottom-nav {
+            margin-top: 26vh !important;
+           
+        }
+  }
 
 @media only screen and (max-width: 1280px) {
     .top-nav, .bottom-nav{
@@ -452,11 +460,11 @@ a{
         font-size: 110%;
         width: 230px;
         text-align: center;
-        margin-top: 18vh;   
+        margin-top: 18vh !important;   
         
     }
     .bottom-nav {
-        margin-top: 16vh;
+        margin-top: 20vh !important;
     }
     .year{
         margin: 4vh 8% 0 14%;
