@@ -137,6 +137,9 @@ a{
     bottom: 0;
 }
 
+.social:hover {
+    cursor: pointer;
+}
 .social-total {
     margin: 0 4%;
     display: flex;
@@ -272,7 +275,7 @@ a{
     }
     
     .bottom-nav {
-        margin-top: 18vmin;
+        margin-top: 20vh !important;
     }
     .social {
         margin: 4vh 10%;

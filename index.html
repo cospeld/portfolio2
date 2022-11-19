@@ -42,13 +42,13 @@
       <div class="year">2022</div>
       <div class="location">N 9.905257 E 78.130842</div>
       <div class="social-total">
-      <div class="social">
+      <div id="behance" class="social">
         BEHANCE
       </div>
       <div class="social">
         INSTAGRAM
       </div>
-      <div class="social">
+      <div id="linkedin" class="social">
         LINKEDIN
       </div>
     </div>
@@ -83,6 +83,15 @@
         var elem = document.getElementById("ele");
         elem.scrollIntoView();
     };
+
+    document.getElementById("linkedin").onclick = function () {
+        location.href = "https://www.linkedin.com/in/vishwash-c-v-147043251/";
+    };
+    document.getElementById("behance").onclick = function () {
+        location.href = "https://www.behance.net/vishwashcv";
+    };
+
+
     document.getElementById("myButton-one").onclick = function () {
         location.href = "one.html";
     };
